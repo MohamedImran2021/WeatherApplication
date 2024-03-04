@@ -9,7 +9,7 @@ form.addEventListener('submit',function(e){
     e.preventDefault();
     let value=input.value;
     // console.log(value)
-    let apiUrl='http://api.weatherapi.com/v1/current.json?key=7aeed2d2f88e46d0912154014231812&q='+value+'&aqi=no'
+    let apiUrl='https://api.weatherapi.com/v1/current.json?key=7aeed2d2f88e46d0912154014231812&q='+value+'&aqi=no'
     fetch(apiUrl)
   .then(response => {
     if (!response.ok) {
