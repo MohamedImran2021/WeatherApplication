@@ -72,24 +72,27 @@ form button:hover{
         display: flex;
         align-items: center;
         justify-content: center;
+        height:60vh;
     }
     .weather-container p{
-       font-size: small;
+       font-size: larger;
     }
     .weather-container img{
-        font-size: smaller;
+        font-size: larger;
     }
     form{
         display: flex;
         align-items: center;
         justify-content: center;
+        height:30vh;
+        margin-bottom:5rem;
     }
     form input{
-        width: 20%;
-        font-size: small;
+        width: 40%;
+        font-size: larger;
     }
     form button{
-        font-size: small;
+        font-size: larger;
 
     }
 }
